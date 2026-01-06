@@ -1,0 +1,2019 @@
+[
+  {
+    "id": "3e5e004a",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Complétez les paroles de la Marseillaise \"Allons enfants de la patrie...\"",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "62e9b353",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Dans le cadre d'un entretien d'embauche, que peut-on demander au candidat ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "7f76446e",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Déclarer ses revenus aux services fiscaux est :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "b84508cf",
+    "category": "Principes et valeurs de la République",
+    "prompt": "En France, les impôts permettent de financer les dépenses publiques. Quelle proposition est correcte ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "958ce1d9",
+    "category": "Principes et valeurs de la République",
+    "prompt": "La liberté d'association est :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "7d928605",
+    "category": "Principes et valeurs de la République",
+    "prompt": "La liberté d'expression sur les réseaux sociaux en France est :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "3cd59fa7",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Lequel de ces prénoms évoque un symbole de la République ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "44b53404",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Lequel de ces symboles représente la République française ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "6596fcf1",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Où peut-on voir la devise de la République ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "efea4ee4",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Lesquels sont des symboles officiels de la République française ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "be32a9a9",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Peut-on brûler publiquement un drapeau français ?",
+    "answerText": "Non : l’outrage public au drapeau tricolore est puni (notamment dans une manifestation organisée ou réglementée par les autorités publiques).",
+    "sources": [
+      "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418556"
+    ],
+    "status": "training"
+  },
+  {
+    "id": "16f4ad8b",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Quand la sécurité sociale a-t-elle été établie en France ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "39a3be9a",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Que commémore la fête nationale ?",
+    "answerText": "Les deux 14 juillet : la prise de la Bastille (1789) et la Fête de la Fédération (1790).",
+    "sources": [
+      "https://www.info.gouv.fr/actualite/pourquoi-le-14-juillet-est-il-notre-fete-nationale",
+      "https://www.vie-publique.fr/questions-reponses/275120-que-celebre-t-le-14-juillet",
+      "https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet"
+    ],
+    "status": "training"
+  },
+  {
+    "id": "667ea80f",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Que porte Marianne sur la tête ?",
+    "answerText": "Un bonnet phrygien.",
+    "sources": [
+      "https://www.info.gouv.fr/actualite/la-petite-histoire-de-marianne",
+      "https://www.elysee.fr/la-presidence/marianne",
+      "Livret du citoyen (février 2022), p.4"
+    ],
+    "status": "training"
+  },
+  {
+    "id": "9d7513f8",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Quel symbole de la République peut-on voir sur les maillots de l'équipe de France de football ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "cf0774ab",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Quelle est la devise de la République française ?",
+    "answerText": "Liberté, Égalité, Fraternité.",
+    "sources": [
+      "Livret du citoyen (février 2022), p.4 (symboles de la République)",
+      "https://www.vie-publique.fr/fiches/19564-quels-sont-les-symboles-et-les-emblemes-de-la-ve-republique"
+    ],
+    "status": "training"
+  },
+  {
+    "id": "110b6cfc",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Qu'est-ce que la liberté d'association ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "c11a824a",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Qu'est-ce qu'une liberté ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "cbdecffd",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Sur quel document peut-on voir Marianne ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "c349d536",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Une des valeurs de la devise républicaine est l'Égalité. Qu'est-ce que cela signifie ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "5d178cfd",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Une personne peut-elle changer librement de religion en France ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "863bb659",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Que peut faire un usager du service public dans une mairie ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "fb8ef840",
+    "category": "Principes et valeurs de la République",
+    "prompt": "En France, il est possible pour l'État de financer :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "93b992d4",
+    "category": "Principes et valeurs de la République",
+    "prompt": "En quelle année la loi de séparation des Églises et de l'État a-t-elle été votée ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "098e4be1",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Que dit la loi de 1905 ?",
+    "answerText": "La loi de 1905 pose le principe de séparation des Églises et de l’État et garantit la liberté de conscience et le libre exercice des cultes dans les limites de l’ordre public.",
+    "sources": [
+      "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000508749/",
+      "Livret du citoyen (février 2022), section Laïcité"
+    ],
+    "status": "training"
+  },
+  {
+    "id": "afd3e0b2",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Que garantit le principe de laïcité ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "5f9eee8b",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Quel jour célèbre-t-on officiellement la laïcité en France ?",
+    "answerText": "Le 9 décembre (anniversaire de la loi de 1905).",
+    "sources": [
+      "https://www.education.gouv.fr/la-journee-de-la-laicite-9139"
+    ],
+    "status": "training"
+  },
+  {
+    "id": "cff18d7d",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Quel symbole religieux peut être porté dans une école publique dans le respect de la laïcité ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "d39cfb2f",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Quel terme désigne précisément la haine ou les préjugés contre les Juifs ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "68662c37",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Quel texte est considéré comme le texte fondateur de la laïcité ?",
+    "answerText": "La loi du 9 décembre 1905 concernant la séparation des Églises et de l’État.",
+    "sources": [
+      "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000508749/"
+    ],
+    "status": "training"
+  },
+  {
+    "id": "0a69c2a5",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Quelle institution française doit rester neutre en matière de religion ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "2dfcce49",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Qu'est-ce que la laïcité ?",
+    "answerText": "Le principe selon lequel l’État est neutre à l’égard des religions et garantit la liberté de conscience, dans le respect de l’ordre public.",
+    "sources": [
+      "Livret du citoyen (février 2022), section Laïcité",
+      "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000508749/"
+    ],
+    "status": "training"
+  },
+  {
+    "id": "029baa68",
+    "category": "Principes et valeurs de la République",
+    "prompt": "À l'école, la charte de la laïcité permet de :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "dd12d5c7",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Qui doit respecter et veiller à la neutralité religieuse dans les services publics ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "edd1fd62",
+    "category": "Principes et valeurs de la République",
+    "prompt": "Une personne déclare ne croire en aucun dieu. On peut dire :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "7b4b457f",
+    "category": "Système institutionnel et politique",
+    "prompt": "Comment est désigné le Premier ministre ?",
+    "answerText": "Il est nommé par le président de la République.",
+    "sources": [
+      "https://www.vie-publique.fr/fiches/19459-qui-designe-le-premier-ministre"
+    ],
+    "status": "training"
+  },
+  {
+    "id": "14df00ad",
+    "category": "Système institutionnel et politique",
+    "prompt": "Qui peut se présenter aux élections présidentielles ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "3073001b",
+    "category": "Système institutionnel et politique",
+    "prompt": "À qui appartient la souveraineté nationale ?",
+    "answerText": "Au peuple, qui l’exerce par ses représentants et par la voie du référendum.",
+    "sources": [
+      "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019240995"
+    ],
+    "status": "training"
+  },
+  {
+    "id": "9b85dabe",
+    "category": "Système institutionnel et politique",
+    "prompt": "Qui est élu lors des élections municipales ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "ecc3f9c2",
+    "category": "Système institutionnel et politique",
+    "prompt": "L'inscription sur les listes électorales est :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "32dea0e7",
+    "category": "Système institutionnel et politique",
+    "prompt": "Quelle condition est nécessaire pour voter aux élections présidentielles ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "f264d59f",
+    "category": "Système institutionnel et politique",
+    "prompt": "Quelle condition faut-il remplir pour être candidat aux élections municipales ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "1f4035bd",
+    "category": "Système institutionnel et politique",
+    "prompt": "Parmi ces autorités, laquelle est élue ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "f3ac8720",
+    "category": "Système institutionnel et politique",
+    "prompt": "Quelles sont les fonctions du maire ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "cd4c50eb",
+    "category": "Système institutionnel et politique",
+    "prompt": "Une personne, n'ayant pas d'accès à internet, veut s'inscrire sur les listes électorales pour pouvoir voter aux prochaines",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "f216573b",
+    "category": "Système institutionnel et politique",
+    "prompt": "élections politiques. Où peut-elle s'inscrire ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "0d13fb3d",
+    "category": "Système institutionnel et politique",
+    "prompt": "À quel âge peut-on devenir électeur ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "fcea9f4c",
+    "category": "Système institutionnel et politique",
+    "prompt": "En France, est-ce obligatoire de voter ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "0ea7938a",
+    "category": "Système institutionnel et politique",
+    "prompt": "A-t-on le droit de ne pas respecter une loi ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "0b242477",
+    "category": "Système institutionnel et politique",
+    "prompt": "Comment sont désignés les députés ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "6c3db990",
+    "category": "Système institutionnel et politique",
+    "prompt": "Qui vote les lois ?",
+    "answerText": "Le Parlement (Assemblée nationale et Sénat).",
+    "sources": [
+      "https://www.vie-publique.fr/fiches/19485-comment-definir-le-parlement"
+    ],
+    "status": "training"
+  },
+  {
+    "id": "5809cdac",
+    "category": "Système institutionnel et politique",
+    "prompt": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "f0e4b665",
+    "category": "Système institutionnel et politique",
+    "prompt": "Qu'est-ce que l'État de droit ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "7b813d66",
+    "category": "Système institutionnel et politique",
+    "prompt": "Quelles sont les durées du mandat du conseil municipal et du maire ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "9663ceee",
+    "category": "Système institutionnel et politique",
+    "prompt": "Qui est élu lors des élections législatives ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "f3a9e957",
+    "category": "Système institutionnel et politique",
+    "prompt": "Quelle est la durée du mandat du Président de la République française ?",
+    "answerText": "5 ans (mandat renouvelable une fois).",
+    "sources": [
+      "https://www.service-public.fr/particuliers/vosdroits/F1940"
+    ],
+    "status": "training"
+  },
+  {
+    "id": "2e8250f8",
+    "category": "Système institutionnel et politique",
+    "prompt": "Quelle est la durée du mandat des députés ?",
+    "answerText": "5 ans (sauf dissolution de l’Assemblée nationale).",
+    "sources": [
+      "https://www.vie-publique.fr/fiches/19585-elections-legislatives-comment-les-deputes-sont-ils-elus"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "a72a55c4",
+    "category": "Système institutionnel et politique",
+    "prompt": "Quelle est la durée du mandat des sénateurs ?",
+    "answerText": "6 ans.",
+    "sources": [
+      "https://www.vie-publique.fr/fiches/19507-quest-ce-quun-senateur-quel-est-le-role-dun-senateur"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "07a32a63",
+    "category": "Système institutionnel et politique",
+    "prompt": "Qui dirige l'action du gouvernement ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "d2b713d8",
+    "category": "Système institutionnel et politique",
+    "prompt": "En France, est-ce possible d'adhérer à un parti politique ?",
+    "answerText": "Oui. Les partis politiques sont libres de se constituer (cadre de la loi de 1901) et l’adhésion relève de la liberté d’association.",
+    "sources": [
+      "https://www.vie-publique.fr/fiches/23999-quest-ce-quun-parti-politique",
+      "https://www.vie-publique.fr/fiches/24003-comment-creer-un-parti-politique",
+      "https://www.vie-publique.fr/fiches/24087-la-loi-du-1er-juillet-1901-relative-au-contrat-dassociation"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "d2f2d6b3",
+    "category": "Système institutionnel et politique",
+    "prompt": "Qui sanctionne l'auteur d'un vol ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "9b1bd5ca",
+    "category": "Système institutionnel et politique",
+    "prompt": "Qui gère les collèges publics ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "3890614d",
+    "category": "Système institutionnel et politique",
+    "prompt": "Qui gère les écoles primaires et maternelles publiques ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "b4ebe75a",
+    "category": "Système institutionnel et politique",
+    "prompt": "Comment sont désignés les maires ?",
+    "answerText": "Le maire est élu par le conseil municipal (les conseillers municipaux étant élus par les électeurs).",
+    "sources": [
+      "https://www.service-public.fr/particuliers/vosdroits/F1952"
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "b24ef64f",
+    "category": "Système institutionnel et politique",
+    "prompt": "Quelle collectivité territoriale est responsable des transports régionaux ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "7e31adb0",
+    "category": "Système institutionnel et politique",
+    "prompt": "Quelle est l'une des voies possibles pour modifier la Constitution ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "e66b21fd",
+    "category": "Système institutionnel et politique",
+    "prompt": "Qui assure l'intérim du président de la République en cas de décès ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "e73b3668",
+    "category": "Système institutionnel et politique",
+    "prompt": "Quel est le rôle du Conseil constitutionnel ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "2a384422",
+    "category": "Système institutionnel et politique",
+    "prompt": "Quelle condition est obligatoire pour se présenter à l'élection présidentielle ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "26e0e311",
+    "category": "Système institutionnel et politique",
+    "prompt": "Combien y a-t-il de départements en France ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "e58beaa4",
+    "category": "Système institutionnel et politique",
+    "prompt": "Comment est organisé le découpage administratif de la France ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "0ff2ea75",
+    "category": "Système institutionnel et politique",
+    "prompt": "Qui représente l'État dans un département ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "bf3ac9b3",
+    "category": "Système institutionnel et politique",
+    "prompt": "Quel est le rôle du Président de la République ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "1f5566e9",
+    "category": "Système institutionnel et politique",
+    "prompt": "Quel est le rôle du Premier ministre ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "8f546be7",
+    "category": "Système institutionnel et politique",
+    "prompt": "Quel est le rôle du Défenseur des droits ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "ef4f0d8b",
+    "category": "Système institutionnel et politique",
+    "prompt": "En quelle année la citoyenneté européenne a-t-elle été créée ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "c808029f",
+    "category": "Système institutionnel et politique",
+    "prompt": "Qui a composé l'hymne de l'Union européenne ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "34f2e268",
+    "category": "Système institutionnel et politique",
+    "prompt": "Quand est célébrée la journée de l'Europe ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "b709ed67",
+    "category": "Système institutionnel et politique",
+    "prompt": "Où est le siège de la Banque centrale européenne ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "a903fd14",
+    "category": "Système institutionnel et politique",
+    "prompt": "Où est le siège de la Commission européenne ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "cbc0082e",
+    "category": "Système institutionnel et politique",
+    "prompt": "Qui siège au Parlement européen ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "23a7bcfb",
+    "category": "Système institutionnel et politique",
+    "prompt": "Combien d'États font partie de l'Union européenne au 1er janvier 2025 ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "e251aa44",
+    "category": "Système institutionnel et politique",
+    "prompt": "En quelle année le traité de Maastricht, qui marque la fondation de l'Union européenne, a-t-il été signé ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "66118be7",
+    "category": "Système institutionnel et politique",
+    "prompt": "Quel traité concerne la construction de l'Union européenne ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "836a4ec6",
+    "category": "Système institutionnel et politique",
+    "prompt": "Quel État a quitté l'Union Européenne en 2020 ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "0211f735",
+    "category": "Système institutionnel et politique",
+    "prompt": "Quel est l'hymne de l'Union Européenne ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "a78b3109",
+    "category": "Système institutionnel et politique",
+    "prompt": "De quoi est composé le drapeau européen ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "e48756c9",
+    "category": "Système institutionnel et politique",
+    "prompt": "Qui élit les députés européens ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "95f08df4",
+    "category": "Système institutionnel et politique",
+    "prompt": "Où est le siège du Parlement européen ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "558585df",
+    "category": "Droits et devoirs",
+    "prompt": "À quoi sert le droit de grève ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "69d2a470",
+    "category": "Droits et devoirs",
+    "prompt": "Au nom de quoi l'État justifie-t-il la restriction des droits ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "6780ce69",
+    "category": "Droits et devoirs",
+    "prompt": "Laquelle de ces citations est inscrite dans la Déclaration des Droits de l'Homme et du Citoyen de 1789 ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "f0ac800d",
+    "category": "Droits et devoirs",
+    "prompt": "L'article 4 de la Déclaration des droits de l'homme et du citoyen affirme que \"la liberté consiste à pouvoir faire tout ce qui ne",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "0738e2c5",
+    "category": "Droits et devoirs",
+    "prompt": "nuit pas à autrui\". Qu'est-ce que cela signifie ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "a9a820a6",
+    "category": "Droits et devoirs",
+    "prompt": "Que dit l'article 1er de la Constitution française ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "8a448044",
+    "category": "Droits et devoirs",
+    "prompt": "Que garantit la liberté de la presse ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "9959ad8a",
+    "category": "Droits et devoirs",
+    "prompt": "Que permet la liberté de circulation ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "5e11482c",
+    "category": "Droits et devoirs",
+    "prompt": "Que signifie être citoyen d'un État ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "b4a45a46",
+    "category": "Droits et devoirs",
+    "prompt": "Que sont les droits fondamentaux ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "5ec88319",
+    "category": "Droits et devoirs",
+    "prompt": "Quel droit protège une personne contre une arrestation arbitraire ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "c57b2371",
+    "category": "Droits et devoirs",
+    "prompt": "Quel est le texte fondateur établissant les droits et les devoirs de chaque citoyen ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "08fb9c88",
+    "category": "Droits et devoirs",
+    "prompt": "Quel texte affirme que tous les hommes naissent libres et égaux en droits ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "4e502ae4",
+    "category": "Droits et devoirs",
+    "prompt": "Quelle situation est une atteinte à la dignité humaine ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "367fb3be",
+    "category": "Droits et devoirs",
+    "prompt": "Qu'est-ce que la liberté d'expression ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "851ab72f",
+    "category": "Droits et devoirs",
+    "prompt": "Suite à une interpellation par la police, il est possible de :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "e437b271",
+    "category": "Droits et devoirs",
+    "prompt": "Tous les citoyens français ont-ils une religion ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "72e1fa91",
+    "category": "Droits et devoirs",
+    "prompt": "À quel âge est la majorité numérique en France ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "5485295a",
+    "category": "Droits et devoirs",
+    "prompt": "Dans lequel de ces endroits est-on autorisé à fumer ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "753b6676",
+    "category": "Droits et devoirs",
+    "prompt": "En France, la conduite sans permis d'une moto est :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "297ee697",
+    "category": "Droits et devoirs",
+    "prompt": "En quoi consiste le devoir de solidarité ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "1df1db8d",
+    "category": "Droits et devoirs",
+    "prompt": "Est-ce légal d'être marié à plusieurs personnes en même temps ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "664d392b",
+    "category": "Droits et devoirs",
+    "prompt": "Est-ce obligatoire de déclarer ses impôts chaque année en France ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "0866673b",
+    "category": "Droits et devoirs",
+    "prompt": "Est-il obligatoire de porter secours à une personne en danger ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "a08aeeba",
+    "category": "Droits et devoirs",
+    "prompt": "Être juré d'assises est :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "550d3af2",
+    "category": "Droits et devoirs",
+    "prompt": "La vente d'alcool en France est interdite aux personnes de moins de :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "612efb41",
+    "category": "Droits et devoirs",
+    "prompt": "Le non-respect du code de la route est :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "3e95b9bf",
+    "category": "Droits et devoirs",
+    "prompt": "Lequel de ces crimes ou délits peut entrainer la privation des droits civils et politiques par un juge ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "6cfe6689",
+    "category": "Droits et devoirs",
+    "prompt": "Pour obtenir une carte d'identité, il faut :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "a4daecef",
+    "category": "Droits et devoirs",
+    "prompt": "Pour quel motif peut-on limiter la liberté d'expression ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "4544c6f3",
+    "category": "Droits et devoirs",
+    "prompt": "Que doit faire un citoyen s'il est appelé à être juré dans un procès d'assises ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "afc7516f",
+    "category": "Droits et devoirs",
+    "prompt": "Quel est l'âge de la majorité civile en France ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "a94d99af",
+    "category": "Droits et devoirs",
+    "prompt": "Quel est l'un des devoirs principaux d'un citoyen français ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "b8f376d5",
+    "category": "Droits et devoirs",
+    "prompt": "Quelle est l'infraction la plus grave ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "6e579aa0",
+    "category": "Droits et devoirs",
+    "prompt": "Qu'est-ce que la citoyenneté numérique ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "b2fd4eed",
+    "category": "Droits et devoirs",
+    "prompt": "Qu'est-ce que le devoir de mémoire ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "21e987d3",
+    "category": "Droits et devoirs",
+    "prompt": "Une personne est privée de ses droits civils et politiques pendant 5 ans suite à une condamnation.",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "f8ad5afa",
+    "category": "Droits et devoirs",
+    "prompt": "Parmi ces propositions laquelle est correcte ? Pendant 5 ans,...",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "249e7f7c",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Parmi ces textes, lequel a été adopté sous Napoléon Ier ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "ebd102c9",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Qui a été président de la Ve République ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "298bd93a",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Que signifie la date du 14 juillet pour les Français ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "d2251572",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Lequel de ces pays est un pays fondateur de l'Union Européenne ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "9be673d6",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Dans quelle région est située une partie des plages du débarquement ayant permis d'engager la libération de la France ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "3b173a08",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Dans quelle ville les rois de France étaient-ils couronnés ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "5350279a",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quel roi de France a été guillotiné pendant la Révolution française ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "e2935db7",
+    "category": "Histoire, géographie et culture",
+    "prompt": "En quelle année a débuté la Révolution française ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "9becbae8",
+    "category": "Histoire, géographie et culture",
+    "prompt": "En quelle année Napoléon Ier est-il devenu empereur ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "65c0ae60",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Lequel de ces personnages a un lien avec la République française ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "9263ca30",
+    "category": "Histoire, géographie et culture",
+    "prompt": "De quand date l'appel à la résistance du général de Gaulle ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "3665dfa2",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Qu'est-ce que la Shoah ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "5b45a444",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quel pays a été une colonie française ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "39ab405b",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Depuis quand les Français élisent-ils le président de la République au suffrage universel direct ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "cf07aa57",
+    "category": "Histoire, géographie et culture",
+    "prompt": "En quelle année l'Union européenne a-t-elle été fondée?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "759ccb84",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quand a eu lieu la Seconde guerre mondiale ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "0b006b35",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quand a eu lieu la Première guerre mondiale ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "6d4caa7a",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Sous quel président a été abolie la peine de mort en France ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "8472d67d",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Que célèbre-t-on le 8 mai ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "f7052ceb",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quelle est la première étape de la construction européenne en 1951 ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "37e74d23",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Qui était une figure de la Résistance française pendant la Seconde Guerre mondiale ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "2d88975b",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Le 11 novembre est un jour férié. À quoi correspond cette date ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "9cd26a3b",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Depuis quand l'esclavage a-t-il été aboli en France ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "0b23d02f",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Qui a aboli l'esclavage en France ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "4e629a59",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Depuis quelle année l'école publique est-elle gratuite ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "c73d71a6",
+    "category": "Histoire, géographie et culture",
+    "prompt": "En 1944, qu'est-ce qui a changé pour les femmes ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "94edd0eb",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quelle organisation a été créée en 1945 après la Seconde Guerre mondiale ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "63573270",
+    "category": "Histoire, géographie et culture",
+    "prompt": "En quelle année l'euro est-il devenu la monnaie officielle de la France ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "4402494b",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Lors de la seconde guerre mondiale, à quelle date la ville de Paris a-t-elle été libérée ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "8e8003b0",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quel était le principal port français impliqué dans la traite négrière au XVIIIe siècle ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "844d20f5",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quel célèbre philosophe des Lumières a dénoncé l'esclavage ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "8eb13639",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quel peintre est français ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "553774a2",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quel plat est une spécialité de la cuisine française ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "62e0d819",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Qui était Marie Curie ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "190d9d53",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Qui a peint \"La liberté guidant le peuple\" ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "7a9df5c9",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Dans quel grand musée parisien est exposée la Joconde ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "d00e831e",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quel château célèbre se trouve près de Paris et symbolise le pouvoir royal de Louis XIV ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "f772b0e2",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Où peut-on voir des peintures préhistoriques en France ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "9c6993bc",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quel peintre célèbre a peint les Nymphéas ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "8d93651c",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Pendant quelles journées peut-on visiter gratuitement des lieux culturels en France ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "64cf1759",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Que symbolise le 1er mai ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "85ede1ef",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Qui était Monsieur Rouget de Lisle ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "5dd3bbc6",
+    "category": "Histoire, géographie et culture",
+    "prompt": "À quelle occasion a été construite la Tour Eiffel ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "4f46f7b9",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quelle chaîne de montagnes est située entre la France et l'Italie ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "12f838d7",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Qui était Molière ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "07340bee",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Qui était Charles Baudelaire ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "aaa0657f",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Qui était George Sand ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "fb921676",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Qui était Simone de Beauvoir ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "153ae89e",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Qui était Albert Camus ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "02cfac06",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Qui était Marguerite Yourcenar ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "ad67384c",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Qui était Paul Cézanne ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "da7c43b6",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Qui était Auguste Rodin ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "c508e842",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Qui était un célèbre compositeur français ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "de0f7b9b",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Qui était Auguste Renoir ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "88b68b50",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quel musée est situé à Paris ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "e9f8895e",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quel monument historique se trouve sur une île en Normandie ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "a6fe620b",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quelle ville française fait partie des 10 plus grandes métropoles du pays ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "29e20c3c",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quelle île fait partie des Antilles françaises ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "bbf08fb5",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quelle île est française ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "c9dce719",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quelle est la plus haute montagne de France ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "b0dfce65",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quelle île française est située dans l'océan indien ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "1773ff4b",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quel département français a une frontière avec le Brésil ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "f4e33495",
+    "category": "Histoire, géographie et culture",
+    "prompt": "De quelle ville française décolle la fusée Ariane ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "7ad3da74",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quelle mer ou océan borde la France métropolitaine ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "aae290d4",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quelle île est un département d'outre-mer français ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "f601b655",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Qu'est-ce que la France d'outre-mer ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "9ffcae3e",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quelle est la population approximative de la France en 2025 ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "6ddb536b",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quel est le principal port maritime de France ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "f7d41ca5",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Combien y a-t-il de régions en France métropolitaine ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "558650b2",
+    "category": "Histoire, géographie et culture",
+    "prompt": "?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "6565a83f",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quelle île française se trouve au sud-est du continent africain ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "037010df",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quel est le chef-lieu de la région Auvergne-Rhône-Alpes ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "9ac80097",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quel est le chef-lieu de la région Bretagne ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "ad1b3f1a",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quel est le chef-lieu de la région Provence-Alpes-Côte d'Azur ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "01cbef58",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quel est le 101ème département français depuis 2011 ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "e6c523dc",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quelle région française est réputée pour ses stations de ski ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "3b25c780",
+    "category": "Histoire, géographie et culture",
+    "prompt": "Quel fleuve traverse Paris ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "dddbe37e",
+    "category": "Vivre dans la société française",
+    "prompt": "Où faut-il déclarer la naissance d'un enfant ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "fe2a34dd",
+    "category": "Vivre dans la société française",
+    "prompt": "Quelle action peut réaliser le locataire d'un logement sans l'autorisation du propriétaire ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "db6f6af2",
+    "category": "Vivre dans la société française",
+    "prompt": "Quel mariage est reconnu légalement ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "5e5e54b7",
+    "category": "Vivre dans la société française",
+    "prompt": "Le stationnement sur une place réservée aux personnes handicapées :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "b74694e8",
+    "category": "Vivre dans la société française",
+    "prompt": "Si une machine à laver est cassée, il est possible de :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "2c79142f",
+    "category": "Vivre dans la société française",
+    "prompt": "Dans quel cas faut-il déclarer son enfant au service d'état civil ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "97010fc3",
+    "category": "Vivre dans la société française",
+    "prompt": "Quand faut-il déclarer son enfant au service d'état civil  ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "4293a267",
+    "category": "Vivre dans la société française",
+    "prompt": "Quel numéro d'urgence permet d'appeler la police ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "e3a514a9",
+    "category": "Vivre dans la société française",
+    "prompt": "Quel numéro d'urgence permet d'appeler le SAMU ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "d53d2e00",
+    "category": "Vivre dans la société française",
+    "prompt": "Auprès de quelle institution les parents peuvent inscrire leurs enfants à l'école publique ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "35b8a219",
+    "category": "Vivre dans la société française",
+    "prompt": "En cas de divorce, qui exerce l'autorité parentale ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "f1f6c0f7",
+    "category": "Vivre dans la société française",
+    "prompt": "Quelle aide permet aux personnes qui ont des difficultés financières d'avoir un avocat ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "9876153e",
+    "category": "Vivre dans la société française",
+    "prompt": "Qui peut demander le divorce de personnes mariées ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "1e53d43e",
+    "category": "Vivre dans la société française",
+    "prompt": "Auprès de quel organisme faut-il demander le remboursement des frais de santé ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "1067d9e9",
+    "category": "Vivre dans la société française",
+    "prompt": "La contraception :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "b13b9fc3",
+    "category": "Vivre dans la société française",
+    "prompt": "À quoi sert la carte Vitale ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "57028d41",
+    "category": "Vivre dans la société française",
+    "prompt": "À quoi sert une mutuelle santé ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "a828dde8",
+    "category": "Vivre dans la société française",
+    "prompt": "Qu'est-ce que le tiers payant ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "4e355534",
+    "category": "Vivre dans la société française",
+    "prompt": "L'inscription à l'Assurance maladie est :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "78614f85",
+    "category": "Vivre dans la société française",
+    "prompt": "L'avortement est-il possible en France ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "6f63b0ab",
+    "category": "Vivre dans la société française",
+    "prompt": "Travailler sans être déclaré est :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "8fc18eb2",
+    "category": "Vivre dans la société française",
+    "prompt": "Qu'est-ce que le SMIC ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "f7cd42b7",
+    "category": "Vivre dans la société française",
+    "prompt": "Quelle est la première démarche à réaliser pour chercher un emploi ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "562a1f9d",
+    "category": "Vivre dans la société française",
+    "prompt": "Quelle est la durée légale du temps de travail par semaine ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "eb62b986",
+    "category": "Vivre dans la société française",
+    "prompt": "Qui peut demander un congé parental d'éducation ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "fc7011ba",
+    "category": "Vivre dans la société française",
+    "prompt": "Une personne étrangère, en situation régulière, peut créer son entreprise :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "56dd42e9",
+    "category": "Vivre dans la société française",
+    "prompt": "Une femme peut-elle créer son entreprise ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "3d989ed0",
+    "category": "Vivre dans la société française",
+    "prompt": "Quels sont les textes qui définissent les règles au travail ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "ccb181b8",
+    "category": "Vivre dans la société française",
+    "prompt": "Quelles sont les affaires traitées par le conseil de prud'hommes ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "6dafea5a",
+    "category": "Vivre dans la société française",
+    "prompt": "Qui a le droit de se syndiquer ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "7e696d6a",
+    "category": "Vivre dans la société française",
+    "prompt": "Est-il possible de licencier une femme enceinte ou en congé maternité, en raison de sa grossesse ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "767b3f94",
+    "category": "Vivre dans la société française",
+    "prompt": "L'instruction des enfants est obligatoire de :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "bb9f3d78",
+    "category": "Vivre dans la société française",
+    "prompt": "Des parents ne respectent pas l'obligation d'instruction pour leurs enfants. Quelle sanction maximale risquent-ils ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "18d5d1c0",
+    "category": "Vivre dans la société française",
+    "prompt": "Quelle est la définition de l'autorité parentale ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "d30dbf35",
+    "category": "Vivre dans la société française",
+    "prompt": "Quel motif d'absence est accepté par l'école ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "8fd67633",
+    "category": "Vivre dans la société française",
+    "prompt": "Jusqu'à quel âge l'école est-elle obligatoire ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "f589e4b7",
+    "category": "Vivre dans la société française",
+    "prompt": "À quel âge commence l'instruction obligatoire des enfants ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "0d338f7c",
+    "category": "Vivre dans la société française",
+    "prompt": "Comment s'appellent les établissements scolaires que les élèves intègrent après l'école élémentaire ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "70d24829",
+    "category": "Vivre dans la société française",
+    "prompt": "En tant que parent d'élève, il est possible de :",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "772d6cfc",
+    "category": "Vivre dans la société française",
+    "prompt": "Quelle instruction est prévue pour les enfants qui ne parlent pas français ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "d9044407",
+    "category": "Vivre dans la société française",
+    "prompt": "S'agissant de l'accueil des enfants en situation de handicap à l'école, laquelle des propositions est vraie ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "ae7d32d9",
+    "category": "Vivre dans la société française",
+    "prompt": "Depuis le 1er juillet 2021, quelle est la durée du congé paternité ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  },
+  {
+    "id": "08c4519a",
+    "category": "Vivre dans la société française",
+    "prompt": "Est-ce possible de punir physiquement ses enfants ?",
+    "answerText": "",
+    "sources": [],
+    "status": "unverified"
+  }
+]
