@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>QCM – Naturalisation</title>
+  <style>
+    :root { --bg:#0b1220; --card:#101a2e; --muted:#9fb0d0; --text:#e8eefc; --accent:#4aa3ff; --good:#3ddc97; --bad:#ff5c7a; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; background:var(--bg); color:var(--text); }
+    header { padding:18px 16px; border-bottom:1px solid rgba(255,255,255,.08); position:sticky; top:0;
+      background:linear-gradient(180deg, rgba(11,18,32,.98), rgba(11,18,32,.90)); backdrop-filter: blur(8px); z-index:5; }
+    .wrap { max-width:980px; margin:0 auto; padding:16px; }
+    .row { display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+    .card { background:var(--card); border:1px solid rgba(255,255,255,.10); border-radius:16px; padding:16px; box-shadow:0 18px 50px rgba(0,0,0,.35); }
+    .muted { color:var(--muted); }
+    .q { font-size:18px; line-height:1.35; margin:0 0 12px; }
+    .pill { padding:6px 10px; border:1px solid rgba(255,255,255,.12); border-radius:999px; color:var(--muted); cursor:pointer; user-select:none; }
+    .pill.active { border-color:rgba(74,163,255,.7); color:var(--text); box-shadow:0 0 0 2px rgba(74,163,255,.15) inset; }
+    .btn { background:rgba(74,163,255,.18); color:var(--text); border:1px solid rgba(74,163,255,.45); padding:10px 12px; border-radius:12px; cursor:pointer; }
+    .btn.secondary { background:transparent; border-color:rgba(255,255,255,.14); }
+    .btn:disabled { opacity:.45; cursor:not-allowed; }
+    .grid { display:grid; grid-template-columns: 1.25fr .75fr; gap:14px; }
+    @media (max-width: 860px){ .grid{ grid-template-columns:1fr; } }
+    textarea { width:100%; min-height:170px; resize:vertical; border-radius:12px; padding:10px;
+      border:1px solid rgba(255,255,255,.14); background:rgba(0,0,0,.18); color:var(--text); }
+    a { color: var(--accent); }
+    ul { margin:8px 0 0; padding-left: 18px; }
+    .opt { display:flex; gap:10px; align-items:flex-start; padding:10px 12px; border:1px solid rgba(255,255,255,.10); border-radius:12px; margin:10px 0; cursor:pointer; }
+    .opt input { margin-top:3px; }
+    .opt:hover { border-color:rgba(255,255,255,.22); }
+    .opt.correct { border-color: rgba(61,220,151,.65); box-shadow:0 0 0 2px rgba(61,220,151,.15) inset; }
+    .opt.wrong { border-color: rgba(255,92,122,.70); box-shadow:0 0 0 2px rgba(255,92,122,.12) inset; }
+    .badge { padding:4px 8px; border-radius:999px; border:1px solid rgba(255,255,255,.14); color:var(--muted); font-size:12px; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="row" style="justify-content:space-between">
+      <div>
+        <div style="font-weight:700">QCM – Naturalisation</div>
+        <div class="muted" style="font-size:12px">Deux modes : Révision (réponse) • QCM (choix + score si options renseignées)</div>
+      </div>
+      <div class="row">
+        <button class="btn secondary" id="btnReset">Réinitialiser</button>
+        <button class="btn" id="btnMode">Mode : Révision</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="grid">
+    <section class="card">
+      <div class="row" style="justify-content:space-between; margin-bottom:10px">
+        <div class="muted" id="meta"></div>
+        <div class="row">
+          <span class="badge" id="scoreBadge" style="display:none"></span>
+          <button class="btn secondary" id="btnPrev">◀</button>
+          <button class="btn secondary" id="btnNext">▶</button>
+        </div>
+      </div>
+
+      <h2 class="q" id="questionText">—</h2>
+
+      <!-- QCM options -->
+      <div id="qcmBox" style="display:none">
+        <div id="options"></div>
+        <div class="row" style="justify-content:space-between; margin-top:12px">
+          <div class="muted" id="qcmStatus"></div>
+          <div class="row">
+            <button class="btn secondary" id="btnCheck">Corriger</button>
+            <button class="btn" id="btnValidate">Valider</button>
+          </div>
+        </div>
+        <div id="qcmResult" class="muted" style="margin-top:12px; display:none"></div>
+      </div>
+
+      <!-- Revision answer -->
+      <div id="revBox" style="display:block">
+        <div class="row" style="justify-content:space-between; margin-top:12px">
+          <div class="muted" id="revStatus"></div>
+          <div class="row">
+            <button class="btn secondary" id="btnReveal">Afficher la réponse</button>
+          </div>
+        </div>
+        <div id="answer" style="margin-top:14px; display:none" class="muted"></div>
+        <div id="sources" style="margin-top:10px; display:none" class="muted"></div>
+      </div>
+    </section>
+
+    <aside class="card">
+      <div style="font-weight:700; margin-bottom:8px">Filtres</div>
+      <div class="muted" style="font-size:12px; margin-bottom:10px">
+        Les questions peuvent ne pas avoir d’options. Dans ce cas, le mode QCM affiche “Options non renseignées”.
+      </div>
+      <div id="catPills" class="row" style="margin-bottom:10px"></div>
+
+      <div style="height:14px"></div>
+
+      <div style="font-weight:700; margin-bottom:8px">Import / Export (JSON)</div>
+      <div class="muted" style="font-size:12px; margin-bottom:8px">
+        Tu peux compléter les champs <code>options</code> (A-D) et <code>answerKey</code> pour activer le mode QCM.
+      </div>
+      <textarea id="jsonArea" spellcheck="false"></textarea>
+      <div class="row" style="margin-top:10px">
+        <button class="btn secondary" id="btnExport">Exporter</button>
+        <button class="btn" id="btnImport">Importer</button>
+      </div>
+
+      <div class="muted" style="font-size:12px; margin-top:10px">
+        Exemple :<br/>
+        <code>"options":[{"key":"A","text":"..."},{"key":"B","text":"..."},{"key":"C","text":"..."},{"key":"D","text":"..."}], "answerKey":"B"</code>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<script>
+let all = [];
+let filterCat = "Toutes";
+let idx = 0;
+let mode = "revision"; // revision | qcm
+let selectedKey = null;
+
+const answered = {}; // id -> { selectedKey, validated, revealed, isCorrect }
+
+const $ = (id)=>document.getElementById(id);
+
+function categoriesFrom(bank){
+  const set = new Set(bank.map(q=>q.category || "Sans catégorie"));
+  return ["Toutes", ...Array.from(set).sort((a,b)=>a.localeCompare(b,"fr"))];
+}
+function filtered(){
+  return filterCat === "Toutes" ? all : all.filter(q=>(q.category||"Sans catégorie") === filterCat);
+}
+function clampIndex(){
+  const f = filtered();
+  if (f.length === 0) { idx = 0; return; }
+  idx = Math.max(0, Math.min(idx, f.length - 1));
+}
+function renderCats(){
+  const cats = categoriesFrom(all);
+  const holder = $("catPills");
+  holder.innerHTML = "";
+  cats.forEach(c=>{
+    const d = document.createElement("div");
+    d.className = "pill" + (c===filterCat ? " active" : "");
+    d.textContent = c;
+    d.onclick = ()=>{ filterCat=c; idx=0; selectedKey=null; render(); };
+    holder.appendChild(d);
+  });
+}
+function renderJSONArea(){
+  $("jsonArea").value = JSON.stringify(all, null, 2);
+}
+
+function scoreInfo(){
+  const vals = Object.values(answered).filter(x=>x.validated);
+  const correct = vals.filter(x=>x.isCorrect===true).length;
+  return {correct, total: vals.length};
+}
+
+function render(){
+  renderCats();
+  clampIndex();
+  const f = filtered();
+
+  // Toggle mode boxes
+  $("revBox").style.display = (mode==="revision") ? "block" : "none";
+  $("qcmBox").style.display = (mode==="qcm") ? "block" : "none";
+
+  // score badge
+  if (mode==="qcm"){
+    const s = scoreInfo();
+    $("scoreBadge").style.display = "inline-flex";
+    $("scoreBadge").textContent = `Score : ${s.correct} / ${s.total}`;
+  } else {
+    $("scoreBadge").style.display = "none";
+  }
+
+  $("answer").style.display = "none";
+  $("sources").style.display = "none";
+  $("qcmResult").style.display = "none";
+
+  if (f.length === 0){
+    $("questionText").textContent = "Aucune question pour ce filtre.";
+    $("meta").textContent = "";
+    $("revStatus").textContent = "";
+    $("qcmStatus").textContent = "";
+    $("options").innerHTML = "";
+    return;
+  }
+
+  const q = f[idx];
+  const cat = q.category || "Sans catégorie";
+  $("meta").textContent = `${cat} • Question ${idx+1} / ${f.length} • id=${q.id || "—"}`;
+  $("questionText").textContent = q.prompt || "(question vide)";
+
+  $("btnPrev").disabled = (idx === 0);
+  $("btnNext").disabled = (idx === f.length - 1);
+
+  // Revision status
+  const hasAnswer = (q.answerText || "").trim().length > 0;
+  $("revStatus").textContent = hasAnswer ? "Réponse disponible." : "Réponse non renseignée dans la banque actuelle.";
+
+  // QCM render
+  const opts = Array.isArray(q.options) ? q.options : [];
+  const hasQcm = opts.length >= 2 && (q.answerKey || "").trim().length > 0;
+  const st = hasQcm ? "Choisis une réponse, puis valide." : "Options non renseignées pour cette question (complète options + answerKey dans le JSON).";
+  $("qcmStatus").textContent = st;
+
+  const box = $("options");
+  box.innerHTML = "";
+  selectedKey = answered[q.id]?.selectedKey ?? selectedKey;
+
+  if (opts.length){
+    opts.forEach(opt=>{
+      const row = document.createElement("label");
+      row.className = "opt";
+      const input = document.createElement("input");
+      input.type = "radio";
+      input.name = "opt";
+      input.value = opt.key;
+      input.checked = (selectedKey === opt.key);
+      input.onchange = ()=>{ selectedKey = opt.key; };
+
+      const txt = document.createElement("div");
+      txt.innerHTML = `<div><strong>${escapeHtml(opt.key)}.</strong> ${escapeHtml(opt.text || "")}</div>`;
+      row.appendChild(input);
+      row.appendChild(txt);
+
+      const a = answered[q.id];
+      if (a?.revealed && hasQcm){
+        if (opt.key === q.answerKey) row.classList.add("correct");
+        if (opt.key === a.selectedKey && a.selectedKey !== q.answerKey) row.classList.add("wrong");
+      }
+
+      box.appendChild(row);
+    });
+  } else {
+    box.innerHTML = `<div class="muted" style="margin-top:8px">Aucun choix disponible pour cette question.</div>`;
+  }
+
+  // Buttons QCM
+  $("btnValidate").disabled = (!opts.length || !selectedKey);
+  $("btnCheck").disabled = (!answered[q.id]?.validated) && true; // enable after validation
+  const a = answered[q.id];
+  if (a?.validated){
+    $("btnCheck").disabled = false;
+  } else {
+    $("btnCheck").disabled = true;
+  }
+}
+
+function revealAnswer(){
+  const f = filtered(); if (f.length===0) return;
+  const q = f[idx];
+
+  const hasAnswer = (q.answerText || "").trim().length > 0;
+  $("answer").style.display = "block";
+  $("answer").innerHTML = hasAnswer
+    ? `✅ <strong>Réponse :</strong> ${escapeHtml(q.answerText)}`
+    : "ℹ️ Réponse non renseignée dans la banque actuelle.";
+
+  if (Array.isArray(q.sources) && q.sources.length){
+    $("sources").style.display = "block";
+    $("sources").innerHTML = `<div><strong>Sources :</strong></div><ul>${q.sources.map(u=>`<li><a href="${u}" target="_blank" rel="noreferrer noopener">${u}</a></li>`).join("")}</ul>`;
+  } else {
+    $("sources").style.display = "none";
+  }
+}
+
+function validateQcm(){
+  const f = filtered(); if (f.length===0) return;
+  const q = f[idx];
+  const opts = Array.isArray(q.options) ? q.options : [];
+  if (!opts.length || !selectedKey) return;
+
+  const hasKey = (q.answerKey || "").trim().length > 0;
+  const isCorrect = hasKey ? (selectedKey === q.answerKey) : null;
+
+  answered[q.id] = { selectedKey, validated:true, revealed:false, isCorrect };
+  render();
+}
+
+function checkQcm(){
+  const f = filtered(); if (f.length===0) return;
+  const q = f[idx];
+  if (!answered[q.id]?.validated) return;
+  answered[q.id].revealed = true;
+
+  const hasKey = (q.answerKey || "").trim().length > 0;
+  const a = answered[q.id];
+  const res = $("qcmResult");
+  res.style.display = "block";
+  if (!hasKey){
+    res.textContent = "Correction indisponible (answerKey vide).";
+  } else {
+    res.textContent = a.isCorrect ? "✅ Correct." : `❌ Incorrect. Bonne réponse : ${q.answerKey}.`;
+  }
+  render();
+}
+
+function toggleMode(){
+  mode = (mode==="revision") ? "qcm" : "revision";
+  $("btnMode").textContent = (mode==="revision") ? "Mode : Révision" : "Mode : QCM";
+  selectedKey = null;
+  render();
+}
+
+function next(){ idx++; selectedKey=null; render(); }
+function prev(){ idx--; selectedKey=null; render(); }
+function resetAll(){ idx=0; filterCat="Toutes"; selectedKey=null; for (const k in answered) delete answered[k]; render(); }
+
+function exportJSON(){ renderJSONArea(); }
+function importJSON(){
+  try{
+    const parsed = JSON.parse($("jsonArea").value);
+    if (!Array.isArray(parsed)) throw new Error("Le JSON doit être un tableau.");
+    parsed.forEach((q,i)=>{
+      if (!q.prompt) throw new Error(`Item ${i} invalide : prompt requis.`);
+      // options if present should be array
+      if (q.options && !Array.isArray(q.options)) throw new Error(`Item ${i} invalide : options doit être un tableau.`);
+    });
+    all = parsed;
+    resetAll();
+    renderJSONArea();
+  } catch(e){
+    alert("Import impossible : " + e.message);
+  }
+}
+
+function escapeHtml(str){
+  return String(str)
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;")
+    .replaceAll("'","&#039;");
+}
+
+$("btnPrev").onclick = prev;
+$("btnNext").onclick = next;
+$("btnReveal").onclick = revealAnswer;
+$("btnReset").onclick = resetAll;
+$("btnMode").onclick = toggleMode;
+$("btnExport").onclick = exportJSON;
+$("btnImport").onclick = importJSON;
+$("btnValidate").onclick = validateQcm;
+$("btnCheck").onclick = checkQcm;
+
+async function load(){
+  const res = await fetch("./qcm_bank.json", {cache:"no-store"});
+  const data = await res.json();
+  all = Array.isArray(data) ? data : [];
+  renderJSONArea();
+  render();
+}
+load();
+</script>
+</body>
+</html>
